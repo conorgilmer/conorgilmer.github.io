@@ -1,0 +1,208 @@
+Three Card Paradox
+in play 1
+winning = 2 | chosen = 3 | remove = 1
+in play 2
+winning = 2 | chosen = 2 | remove = 3
+in play 3
+winning = 2 | chosen = 3 | remove = 1
+in play 4
+winning = 3 | chosen = 3 | remove = 1
+in play 5
+winning = 1 | chosen = 2 | remove = 3
+in play 6
+winning = 3 | chosen = 1 | remove = 2
+in play 7
+winning = 2 | chosen = 3 | remove = 1
+in play 8
+winning = 3 | chosen = 2 | remove = 1
+in play 9
+winning = 3 | chosen = 1 | remove = 2
+in play 10
+winning = 2 | chosen = 1 | remove = 3
+in play 11
+winning = 3 | chosen = 2 | remove = 1
+in play 12
+winning = 2 | chosen = 2 | remove = 1
+in play 13
+winning = 3 | chosen = 1 | remove = 2
+in play 14
+winning = 1 | chosen = 3 | remove = 2
+in play 15
+winning = 2 | chosen = 1 | remove = 3
+in play 16
+winning = 2 | chosen = 1 | remove = 3
+in play 17
+winning = 2 | chosen = 1 | remove = 3
+in play 18
+winning = 2 | chosen = 1 | remove = 3
+in play 19
+winning = 1 | chosen = 2 | remove = 3
+in play 20
+winning = 3 | chosen = 1 | remove = 2
+in play 21
+winning = 3 | chosen = 1 | remove = 2
+in play 22
+winning = 3 | chosen = 1 | remove = 2
+in play 23
+winning = 3 | chosen = 1 | remove = 2
+in play 24
+winning = 1 | chosen = 3 | remove = 2
+in play 25
+winning = 1 | chosen = 2 | remove = 3
+in play 26
+winning = 3 | chosen = 2 | remove = 1
+in play 27
+winning = 2 | chosen = 1 | remove = 3
+in play 28
+winning = 2 | chosen = 1 | remove = 3
+in play 29
+winning = 1 | chosen = 3 | remove = 2
+in play 30
+winning = 1 | chosen = 1 | remove = 3
+in play 31
+winning = 3 | chosen = 1 | remove = 2
+in play 32
+winning = 3 | chosen = 2 | remove = 1
+in play 33
+winning = 1 | chosen = 2 | remove = 3
+in play 34
+winning = 3 | chosen = 3 | remove = 2
+in play 35
+winning = 1 | chosen = 3 | remove = 2
+in play 36
+winning = 1 | chosen = 2 | remove = 3
+in play 37
+winning = 2 | chosen = 3 | remove = 1
+in play 38
+winning = 2 | chosen = 1 | remove = 3
+in play 39
+winning = 1 | chosen = 2 | remove = 3
+in play 40
+winning = 2 | chosen = 3 | remove = 1
+in play 41
+winning = 2 | chosen = 3 | remove = 1
+in play 42
+winning = 2 | chosen = 2 | remove = 1
+in play 43
+winning = 2 | chosen = 3 | remove = 1
+in play 44
+winning = 2 | chosen = 3 | remove = 1
+in play 45
+winning = 2 | chosen = 2 | remove = 1
+in play 46
+winning = 2 | chosen = 2 | remove = 1
+in play 47
+winning = 3 | chosen = 3 | remove = 1
+in play 48
+winning = 2 | chosen = 3 | remove = 1
+in play 49
+winning = 3 | chosen = 3 | remove = 2
+in play 50
+winning = 2 | chosen = 2 | remove = 1
+in play 51
+winning = 1 | chosen = 1 | remove = 3
+in play 52
+winning = 2 | chosen = 1 | remove = 3
+in play 53
+winning = 3 | chosen = 2 | remove = 1
+in play 54
+winning = 3 | chosen = 2 | remove = 1
+in play 55
+winning = 1 | chosen = 3 | remove = 2
+in play 56
+winning = 3 | chosen = 2 | remove = 1
+in play 57
+winning = 2 | chosen = 3 | remove = 1
+in play 58
+winning = 2 | chosen = 3 | remove = 1
+in play 59
+winning = 3 | chosen = 2 | remove = 1
+in play 60
+winning = 2 | chosen = 1 | remove = 3
+in play 61
+winning = 2 | chosen = 1 | remove = 3
+in play 62
+winning = 2 | chosen = 3 | remove = 1
+in play 63
+winning = 3 | chosen = 1 | remove = 2
+in play 64
+winning = 2 | chosen = 3 | remove = 1
+in play 65
+winning = 3 | chosen = 2 | remove = 1
+in play 66
+winning = 2 | chosen = 2 | remove = 3
+in play 67
+winning = 3 | chosen = 2 | remove = 1
+in play 68
+winning = 2 | chosen = 2 | remove = 3
+in play 69
+winning = 2 | chosen = 3 | remove = 1
+in play 70
+winning = 1 | chosen = 1 | remove = 2
+in play 71
+winning = 1 | chosen = 1 | remove = 2
+in play 72
+winning = 2 | chosen = 1 | remove = 3
+in play 73
+winning = 1 | chosen = 2 | remove = 3
+in play 74
+winning = 2 | chosen = 3 | remove = 1
+in play 75
+winning = 3 | chosen = 3 | remove = 1
+in play 76
+winning = 2 | chosen = 2 | remove = 3
+in play 77
+winning = 2 | chosen = 1 | remove = 3
+in play 78
+winning = 2 | chosen = 2 | remove = 3
+in play 79
+winning = 2 | chosen = 2 | remove = 1
+in play 80
+winning = 2 | chosen = 1 | remove = 3
+in play 81
+winning = 3 | chosen = 1 | remove = 2
+in play 82
+winning = 1 | chosen = 1 | remove = 2
+in play 83
+winning = 3 | chosen = 1 | remove = 2
+in play 84
+winning = 2 | chosen = 1 | remove = 3
+in play 85
+winning = 2 | chosen = 1 | remove = 3
+in play 86
+winning = 3 | chosen = 3 | remove = 1
+in play 87
+winning = 3 | chosen = 1 | remove = 2
+in play 88
+winning = 3 | chosen = 3 | remove = 1
+in play 89
+winning = 1 | chosen = 2 | remove = 3
+in play 90
+winning = 3 | chosen = 2 | remove = 1
+in play 91
+winning = 1 | chosen = 1 | remove = 3
+in play 92
+winning = 3 | chosen = 2 | remove = 1
+in play 93
+winning = 2 | chosen = 2 | remove = 3
+in play 94
+winning = 2 | chosen = 1 | remove = 3
+in play 95
+winning = 3 | chosen = 2 | remove = 1
+in play 96
+winning = 3 | chosen = 1 | remove = 2
+in play 97
+winning = 3 | chosen = 2 | remove = 1
+in play 98
+winning = 1 | chosen = 3 | remove = 2
+in play 99
+winning = 3 | chosen = 3 | remove = 1
+in play 100
+winning = 2 | chosen = 3 | remove = 1
+Results:
+Game played 100 times
+Sticking wins 26 times (26.00%)
+Changing wins 74 times (74.00%)
+Verdict:
+Twisting wins more!
+The End.

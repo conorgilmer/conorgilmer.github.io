@@ -1,0 +1,8 @@
+# /robots.txt
+# 
+# exclude 
+User-agent: *
+Disallow: 
+
+Sitemap: http://www.webwayz.com/projects/wwGen/sitemap.xml
+

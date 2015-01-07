@@ -1,0 +1,404 @@
+
+Three Card Game Paradox 
+Game: 1
+Three cards ( A B C )
+Choose A | Removed C
+Winning Card is B - Twisting wins
+Game: 2
+Three cards ( A B C )
+Choose C | Removed A
+Winning Card is C - Sticking wins
+Game: 3
+Three cards ( A B C )
+Choose A | Removed B
+Winning Card is C - Twisting wins
+Game: 4
+Three cards ( A B C )
+Choose A | Removed C
+Winning Card is B - Twisting wins
+Game: 5
+Three cards ( A B C )
+Choose A | Removed B
+Winning Card is C - Twisting wins
+Game: 6
+Three cards ( A B C )
+Choose A | Removed C
+Winning Card is B - Twisting wins
+Game: 7
+Three cards ( A B C )
+Choose B | Removed C
+Winning Card is B - Sticking wins
+Game: 8
+Three cards ( A B C )
+Choose B | Removed A
+Winning Card is C - Twisting wins
+Game: 9
+Three cards ( A B C )
+Choose A | Removed C
+Winning Card is B - Twisting wins
+Game: 10
+Three cards ( A B C )
+Choose C | Removed A
+Winning Card is B - Twisting wins
+Game: 11
+Three cards ( A B C )
+Choose A | Removed B
+Winning Card is A - Sticking wins
+Game: 12
+Three cards ( A B C )
+Choose A | Removed C
+Winning Card is B - Twisting wins
+Game: 13
+Three cards ( A B C )
+Choose C | Removed B
+Winning Card is A - Twisting wins
+Game: 14
+Three cards ( A B C )
+Choose C | Removed B
+Winning Card is A - Twisting wins
+Game: 15
+Three cards ( A B C )
+Choose A | Removed C
+Winning Card is B - Twisting wins
+Game: 16
+Three cards ( A B C )
+Choose A | Removed C
+Winning Card is B - Twisting wins
+Game: 17
+Three cards ( A B C )
+Choose A | Removed C
+Winning Card is B - Twisting wins
+Game: 18
+Three cards ( A B C )
+Choose A | Removed B
+Winning Card is C - Twisting wins
+Game: 19
+Three cards ( A B C )
+Choose B | Removed A
+Winning Card is C - Twisting wins
+Game: 20
+Three cards ( A B C )
+Choose B | Removed A
+Winning Card is B - Sticking wins
+Game: 21
+Three cards ( A B C )
+Choose C | Removed B
+Winning Card is A - Twisting wins
+Game: 22
+Three cards ( A B C )
+Choose C | Removed B
+Winning Card is A - Twisting wins
+Game: 23
+Three cards ( A B C )
+Choose B | Removed C
+Winning Card is A - Twisting wins
+Game: 24
+Three cards ( A B C )
+Choose B | Removed C
+Winning Card is B - Sticking wins
+Game: 25
+Three cards ( A B C )
+Choose A | Removed C
+Winning Card is B - Twisting wins
+Game: 26
+Three cards ( A B C )
+Choose C | Removed A
+Winning Card is B - Twisting wins
+Game: 27
+Three cards ( A B C )
+Choose C | Removed A
+Winning Card is B - Twisting wins
+Game: 28
+Three cards ( A B C )
+Choose A | Removed B
+Winning Card is A - Sticking wins
+Game: 29
+Three cards ( A B C )
+Choose C | Removed A
+Winning Card is B - Twisting wins
+Game: 30
+Three cards ( A B C )
+Choose B | Removed C
+Winning Card is A - Twisting wins
+Game: 31
+Three cards ( A B C )
+Choose A | Removed C
+Winning Card is B - Twisting wins
+Game: 32
+Three cards ( A B C )
+Choose C | Removed B
+Winning Card is A - Twisting wins
+Game: 33
+Three cards ( A B C )
+Choose B | Removed C
+Winning Card is B - Sticking wins
+Game: 34
+Three cards ( A B C )
+Choose A | Removed C
+Winning Card is B - Twisting wins
+Game: 35
+Three cards ( A B C )
+Choose B | Removed A
+Winning Card is C - Twisting wins
+Game: 36
+Three cards ( A B C )
+Choose B | Removed C
+Winning Card is A - Twisting wins
+Game: 37
+Three cards ( A B C )
+Choose B | Removed C
+Winning Card is B - Sticking wins
+Game: 38
+Three cards ( A B C )
+Choose C | Removed A
+Winning Card is B - Twisting wins
+Game: 39
+Three cards ( A B C )
+Choose B | Removed A
+Winning Card is B - Sticking wins
+Game: 40
+Three cards ( A B C )
+Choose C | Removed A
+Winning Card is B - Twisting wins
+Game: 41
+Three cards ( A B C )
+Choose B | Removed A
+Winning Card is C - Twisting wins
+Game: 42
+Three cards ( A B C )
+Choose C | Removed B
+Winning Card is A - Twisting wins
+Game: 43
+Three cards ( A B C )
+Choose B | Removed A
+Winning Card is B - Sticking wins
+Game: 44
+Three cards ( A B C )
+Choose A | Removed C
+Winning Card is B - Twisting wins
+Game: 45
+Three cards ( A B C )
+Choose C | Removed A
+Winning Card is B - Twisting wins
+Game: 46
+Three cards ( A B C )
+Choose C | Removed B
+Winning Card is A - Twisting wins
+Game: 47
+Three cards ( A B C )
+Choose C | Removed A
+Winning Card is B - Twisting wins
+Game: 48
+Three cards ( A B C )
+Choose B | Removed A
+Winning Card is C - Twisting wins
+Game: 49
+Three cards ( A B C )
+Choose C | Removed A
+Winning Card is B - Twisting wins
+Game: 50
+Three cards ( A B C )
+Choose A | Removed B
+Winning Card is A - Sticking wins
+Game: 51
+Three cards ( A B C )
+Choose B | Removed C
+Winning Card is A - Twisting wins
+Game: 52
+Three cards ( A B C )
+Choose A | Removed B
+Winning Card is C - Twisting wins
+Game: 53
+Three cards ( A B C )
+Choose C | Removed A
+Winning Card is C - Sticking wins
+Game: 54
+Three cards ( A B C )
+Choose C | Removed A
+Winning Card is C - Sticking wins
+Game: 55
+Three cards ( A B C )
+Choose A | Removed C
+Winning Card is B - Twisting wins
+Game: 56
+Three cards ( A B C )
+Choose B | Removed C
+Winning Card is B - Sticking wins
+Game: 57
+Three cards ( A B C )
+Choose A | Removed B
+Winning Card is C - Twisting wins
+Game: 58
+Three cards ( A B C )
+Choose A | Removed C
+Winning Card is A - Sticking wins
+Game: 59
+Three cards ( A B C )
+Choose C | Removed B
+Winning Card is A - Twisting wins
+Game: 60
+Three cards ( A B C )
+Choose C | Removed B
+Winning Card is A - Twisting wins
+Game: 61
+Three cards ( A B C )
+Choose A | Removed B
+Winning Card is C - Twisting wins
+Game: 62
+Three cards ( A B C )
+Choose C | Removed A
+Winning Card is B - Twisting wins
+Game: 63
+Three cards ( A B C )
+Choose C | Removed A
+Winning Card is B - Twisting wins
+Game: 64
+Three cards ( A B C )
+Choose B | Removed C
+Winning Card is A - Twisting wins
+Game: 65
+Three cards ( A B C )
+Choose C | Removed A
+Winning Card is B - Twisting wins
+Game: 66
+Three cards ( A B C )
+Choose C | Removed A
+Winning Card is B - Twisting wins
+Game: 67
+Three cards ( A B C )
+Choose A | Removed C
+Winning Card is A - Sticking wins
+Game: 68
+Three cards ( A B C )
+Choose C | Removed A
+Winning Card is B - Twisting wins
+Game: 69
+Three cards ( A B C )
+Choose A | Removed C
+Winning Card is B - Twisting wins
+Game: 70
+Three cards ( A B C )
+Choose A | Removed C
+Winning Card is B - Twisting wins
+Game: 71
+Three cards ( A B C )
+Choose A | Removed C
+Winning Card is B - Twisting wins
+Game: 72
+Three cards ( A B C )
+Choose B | Removed C
+Winning Card is A - Twisting wins
+Game: 73
+Three cards ( A B C )
+Choose C | Removed B
+Winning Card is C - Sticking wins
+Game: 74
+Three cards ( A B C )
+Choose B | Removed A
+Winning Card is C - Twisting wins
+Game: 75
+Three cards ( A B C )
+Choose B | Removed A
+Winning Card is C - Twisting wins
+Game: 76
+Three cards ( A B C )
+Choose C | Removed A
+Winning Card is B - Twisting wins
+Game: 77
+Three cards ( A B C )
+Choose C | Removed B
+Winning Card is A - Twisting wins
+Game: 78
+Three cards ( A B C )
+Choose C | Removed B
+Winning Card is A - Twisting wins
+Game: 79
+Three cards ( A B C )
+Choose B | Removed C
+Winning Card is A - Twisting wins
+Game: 80
+Three cards ( A B C )
+Choose A | Removed B
+Winning Card is C - Twisting wins
+Game: 81
+Three cards ( A B C )
+Choose C | Removed A
+Winning Card is B - Twisting wins
+Game: 82
+Three cards ( A B C )
+Choose A | Removed B
+Winning Card is C - Twisting wins
+Game: 83
+Three cards ( A B C )
+Choose C | Removed A
+Winning Card is B - Twisting wins
+Game: 84
+Three cards ( A B C )
+Choose A | Removed C
+Winning Card is A - Sticking wins
+Game: 85
+Three cards ( A B C )
+Choose B | Removed A
+Winning Card is C - Twisting wins
+Game: 86
+Three cards ( A B C )
+Choose B | Removed C
+Winning Card is A - Twisting wins
+Game: 87
+Three cards ( A B C )
+Choose B | Removed C
+Winning Card is A - Twisting wins
+Game: 88
+Three cards ( A B C )
+Choose B | Removed A
+Winning Card is B - Sticking wins
+Game: 89
+Three cards ( A B C )
+Choose A | Removed C
+Winning Card is A - Sticking wins
+Game: 90
+Three cards ( A B C )
+Choose C | Removed B
+Winning Card is C - Sticking wins
+Game: 91
+Three cards ( A B C )
+Choose A | Removed C
+Winning Card is A - Sticking wins
+Game: 92
+Three cards ( A B C )
+Choose C | Removed A
+Winning Card is C - Sticking wins
+Game: 93
+Three cards ( A B C )
+Choose C | Removed B
+Winning Card is C - Sticking wins
+Game: 94
+Three cards ( A B C )
+Choose A | Removed B
+Winning Card is C - Twisting wins
+Game: 95
+Three cards ( A B C )
+Choose A | Removed B
+Winning Card is A - Sticking wins
+Game: 96
+Three cards ( A B C )
+Choose B | Removed A
+Winning Card is C - Twisting wins
+Game: 97
+Three cards ( A B C )
+Choose A | Removed C
+Winning Card is B - Twisting wins
+Game: 98
+Three cards ( A B C )
+Choose B | Removed A
+Winning Card is C - Twisting wins
+Game: 99
+Three cards ( A B C )
+Choose A | Removed C
+Winning Card is A - Sticking wins
+
+Game played 99 times
+Results:
+Sticking wins 26 (26.2626262626263 %)times 
+Twisting wins 73 (73.7373737373737 %) times
+The End

@@ -1,0 +1,78 @@
+c three.f
+c Three Card Game Paradox
+c by Conor Gilmer
+c
+      program three
+c variables
+      integer stick, twist, games, outcome
+      real stickpc, twistpc
+      integer run
+     
+      stick = 0
+      twist = 0
+      games = 1000
+
+      print *,"Three Card Game Paradox!"
+      print *,"Play ", games, " Times"
+c run the game games times
+      do i=1, games
+        outcome = run(i)
+        if (outcome == 1) then
+                stick = stick + 1
+        else
+                twist = twist + 1
+        end if
+      end do
+c output the results
+      twistpc = (real(twist)/real(games)) * 100
+      stickpc = (real(stick)/real(games)) * 100
+      print *,"Results:"
+      print *,"Sticking wins ", stick, " times (",stickpc, " %)."
+      print *,"Changing wins ", twist, " times (",twistpc, " %)."
+      if (stick.le.twist) then
+        print *,("Changing is better")
+      else
+        print *,("Sticking is better")
+      endif
+      print *,"The End!"
+      end program three
+
+c function to generate a simple random number between 1 and 3
+c modulus means its numbers between 0 and 3 but if zero random again
+      integer function simplerandom(x)
+      integer x
+      do
+        simplerandom = mod(irand(),4)
+c        print *,"simple random = ", simplerandom
+        if (simplerandom.ne.0) exit
+      end do
+      return
+      end function
+
+c This is a function to play a game and return if stick or twisting won
+      integer function run(x)
+      integer x
+      integer winning, chosen, remove
+      character cards(3)
+      integer simplerandom
+      cards(1) = "A"
+      cards(2) = "B"
+      cards(3) = "C"
+      
+      winning = simplerandom(2)    
+      remove = simplerandom(2)    
+      chosen = simplerandom(1)    
+
+      do
+       remove = simplerandom(3)    
+       if ((remove.ne.winning) .and. (remove.ne.chosen)) exit
+      end do
+      print *,"winning ",winning," chosen ",chosen, " card ",cards(2)
+
+      if (winning.eq.chosen) then
+        run = 1
+      else
+        run = 0
+      endif
+      RETURN 
+      END
