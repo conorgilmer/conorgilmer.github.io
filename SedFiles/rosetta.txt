@@ -1,2 +1,0 @@
-s/oldstring/newstring/g
-s/as/AS/g

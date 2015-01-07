@@ -1,5 +1,0 @@
-http://www.webwayz.com/projects/wwGen/index.php
-http://www.webwayz.com/projects/wwGen/About.php
-http://www.webwayz.com/projects/wwGen/Products.php
-http://www.webwayz.com/projects/wwGen/Services.php
-http://www.webwayz.com/projects/wwGen/Contact.php
