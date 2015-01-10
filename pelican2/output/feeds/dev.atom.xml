@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Conors Musings</title><link href="http://conorgilmer.github.io//pelican2/output/" rel="alternate"></link><link href="http://conorgilmer.github.io//pelican2/output/feeds/dev.atom.xml" rel="self"></link><id>http://conorgilmer.github.io//pelican2/output/</id><updated>2014-12-10T00:00:00+00:00</updated><entry><title>My Favourite Language</title><link href="http://conorgilmer.github.io//pelican2/output/my-favourite-language.html" rel="alternate"></link><updated>2014-12-10T00:00:00+00:00</updated><author><name>Conor Gilmer</name></author><id>tag:conorgilmer.github.io,2014-12-10:pelican2/output/my-favourite-language.html</id><summary type="html">&lt;h2&gt;This is my favourite computer language&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Item One&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Item Two&lt;/p&gt;
+&lt;p&gt;This is some code&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</summary></entry></feed>
