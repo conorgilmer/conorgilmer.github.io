@@ -6,5 +6,5 @@ Title: Contact
 I am online a large percentage of the time so it is perhaps the easiest way to do so.
 
 * skype - conor.gilmer
-* gmail - conor.gilmer@gmail.com
+* gmail - <conor.gilmer@gmail.com>
 * twitter - [@twitter](http://www.twitter.com/conorgilmer)
