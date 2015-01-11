@@ -314,7 +314,7 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 		.social a[href*='facebook.com'] {background-image: url('../images/icons/facebook.png');}
 		.social a[href*='gitorious.org'] {background-image: url('../images/icons/gitorious.png');}
 		.social a[href*='github.com'],
-		.social a[href*='git.io'] {
+		.social a[href*='github.io'] {
 			background-image: url('../images/icons/github.png');
 			background-size: 16px 16px;
 		}
