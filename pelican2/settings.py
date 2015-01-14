@@ -2,7 +2,7 @@ PATH = 'content'
 
 AUTHOR = u'Conor Gilmer'
 
-SITENAME = u'Conors Musings'
+SITENAME = u'Conors Musings..'
 
 SITEURL = 'http://conorgilmer.github.io/pelican2/output'
 
