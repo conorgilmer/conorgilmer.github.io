@@ -15,7 +15,22 @@ What I like about TeX is that it allows you to produce documents consistently, a
 &lt;li&gt;Perl - Always amazed how I often have to go back to Perl to do some tasks.&lt;/li&gt;
 &lt;li&gt;Python - More recently I have used Python for some data analysis, really impressed with using it with Anaconda.&lt;/li&gt;
 &lt;/ul&gt;</summary></entry><entry><title>Python - Anaconda</title><link href="http://conorgilmer.github.io/pelican2/output/python-anaconda.html" rel="alternate"></link><updated>2014-09-09T00:00:00+00:00</updated><author><name>Conor Gilmer</name></author><id>tag:conorgilmer.github.io,2014-09-09:pelican2/output/python-anaconda.html</id><summary type="html">&lt;h2&gt;Data Analytics&lt;/h2&gt;
-&lt;p&gt;Was convinced to try Python for some data manipulation and analytic task, and I really impressed. I have just discovered using Anaconda for python and the idea and way you can run pyton within a browser must make this an excellent tool for teaching the language.&lt;/p&gt;</summary></entry><entry><title>Eclipse IDE</title><link href="http://conorgilmer.github.io/pelican2/output/eclipse-ide.html" rel="alternate"></link><updated>2006-09-12T00:00:00+00:00</updated><author><name>Conor Gilmer</name></author><id>tag:conorgilmer.github.io,2006-09-12:pelican2/output/eclipse-ide.html</id><summary type="html">&lt;h2&gt;Eclipse IDE for Java&lt;/h2&gt;
+&lt;p&gt;Was convinced to try Python for some data manipulation and analytic task, and I really impressed. I have just discovered using Anaconda for python and the idea and way you can run pyton within a browser must make this an excellent tool for teaching the language.&lt;/p&gt;</summary></entry><entry><title>Wordpress Plugins</title><link href="http://conorgilmer.github.io/pelican2/output/wordpress-plugins.html" rel="alternate"></link><updated>2014-08-10T00:00:00+00:00</updated><author><name>Conor Gilmer</name></author><id>tag:conorgilmer.github.io,2014-08-10:pelican2/output/wordpress-plugins.html</id><summary type="html">&lt;h2&gt;My Favourite WP Plugins&lt;/h2&gt;
+&lt;p&gt;Wordpress is such an omnipresent CMS now it is hard to avoid, here are a list of my favourite plugins to enhance the functionality of it&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Contact Form 7 (free)&lt;/li&gt;
+&lt;li&gt;JetPack (some free some paid)&lt;/li&gt;
+&lt;li&gt;Google XML Sitemaps&lt;/li&gt;
+&lt;li&gt;Visual Composer (Paid ~ €20a)&lt;/li&gt;
+&lt;li&gt;Options Framework&lt;/li&gt;
+&lt;li&gt;Soliloquy (slider)&lt;/li&gt;
+&lt;li&gt;Wordpress SEO&lt;/li&gt;
+&lt;li&gt;Wordpress Backup to Dropbox&lt;/li&gt;
+&lt;li&gt;Share Buttons by AddToAny&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;While you can get plugins to add stats, I tend to add the code via the editor to the footer
++ Google Analytics 
++ Piwik &lt;/p&gt;</summary></entry><entry><title>Eclipse IDE</title><link href="http://conorgilmer.github.io/pelican2/output/eclipse-ide.html" rel="alternate"></link><updated>2006-09-12T00:00:00+00:00</updated><author><name>Conor Gilmer</name></author><id>tag:conorgilmer.github.io,2006-09-12:pelican2/output/eclipse-ide.html</id><summary type="html">&lt;h2&gt;Eclipse IDE for Java&lt;/h2&gt;
 &lt;p&gt;After using many IDE's in the past, JBuilder particularly, I happened upon Eclipse. Ok it is a big download, and does require a bit getting used to like any software package. The things I liked were the fact you could add plugins, add in JUnit, add in Apache Ant to run builds, have a built in server, version control, the thing which sold it to me was hot deploying with apache ant, like having one one build to deploy to your local server, or development server, and one to deploy on the test server.
 I also liked that you could customise eclipse to whatever language/system you were using be it a legacy version of java, or C or another language.
 Eclips - &lt;a href="http://www.eclipse.org"&gt;http://www.eclipse.org&lt;/a&gt;
