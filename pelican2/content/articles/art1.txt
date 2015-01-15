@@ -1,0 +1,6 @@
+Date: 1 sep 2012
+Status: draft
+Latex: 
+Title: Aritcle One
+
+\frac{1}{\sqrt{2\pi\sigma^2}}\operatorname{exp}\left\{-\frac{\left(x-\mu\right)^2}{2\sigma^2}\right\}

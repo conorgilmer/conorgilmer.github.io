@@ -8,4 +8,5 @@ As an alternative to CMS's I have looked at static website generators
 * Jekyll - Static site generator using ruby - [Jekyll](http://jekyllrb.com/)
 * Hyde - Static site generator using python [Hyde](http://hyde.github.io/)
 
+One thing I like about Pelican is the plugin to use LaTeX.
 

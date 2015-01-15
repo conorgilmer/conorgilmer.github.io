@@ -9,6 +9,21 @@
         <!--[if IE]>
             <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
+
+<!-- Using MathJax, with the delimiters $ -->
+<!-- Conflict with pygments for the .mo and .mi -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+  "HTML-CSS": {
+  styles: {
+  ".MathJax .mo, .MathJax .mi": {color: "black ! important"}}
+  },
+  tex2jax: {inlineMath: [['$','$'], ['\\\\(','\\\\)']],processEscapes: true}
+  });
+</script>
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+
 </head>
 
 <body id="index" class="home">
@@ -31,9 +46,12 @@
 <li><a href="http://www.vim.org">Vim</a> - Text Editor</li>
 <li><a href="http://www.gimp.org">GIMP</a> - GNU Image Manipulation Program</li>
 <li><a href="http://www.openoffice.org">OpenOffice</a> - Open Source Office Suite</li>
-<li><a href="http://www.eclipse.org">Eclipse</a> - Open Soucre IDE</li>
+<li><a href="http://www.eclipse.org">Eclipse</a> - Open Source IDE</li>
 <li><a href="http://www.tex.org">TeX</a> - Documenting system</li>
 <li><a href="http://miktex.org">MikTeX</a> - TeX/LaTeX processing system</li>
+<li><a href="http://www.wordpress.org">Wordpress</a> - Leading CMS</li>
+<li><a href="http:/www.linux.org">Linux</a> - Linux OS Information </li>
+<li><a href="http://www.ubuntulinux.org">Ubuntu</a> - User friendly Linux OS</li>
 </ul>
 </section>
         <section id="extras" class="body">
