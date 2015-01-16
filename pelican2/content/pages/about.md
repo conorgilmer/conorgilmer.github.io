@@ -1,4 +1,3 @@
-Date: 2014-12-1
 Title: About
 
 ##This is About page
