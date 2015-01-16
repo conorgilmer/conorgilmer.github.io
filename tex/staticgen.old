@@ -1,0 +1,282 @@
+\documentclass[12pt]{article}			% For LaTeX 2e
+						% other documentclass options:
+						% draft, fleqn, openbib, 12pt
+
+\usepackage{graphicx}	 			% insert PostScript figures
+%% \usepackage{setspace}   % controllabel line spacing
+%% If an increased spacing different from one-and-a-half or double spacing is
+%% required then the spacing environment can be used.  The spacing environment 
+%% takes one argument which is the baselinestretch to use,
+%%         e.g., \begin{spacing}{2.5}  ...  \end{spacing}
+
+
+% the following produces 1 inch margins all around with no header or footer
+\topmargin	=10.mm		% beyond 25.mm
+\oddsidemargin	=0.mm		% beyond 25.mm
+\evensidemargin	=0.mm		% beyond 25.mm
+\headheight	=0.mm
+\headsep	=0.mm
+\textheight	=220.mm
+\textwidth	=165.mm
+					% SOME USEFUL OPTIONS:
+% \pagestyle{empty}			% no page numbers
+ \parindent  15.mm			% indent paragraph by this much
+ \parskip     2.mm			% space between paragraphs
+% \mathindent 20.mm			% indent math equations by this much
+
+\newcommand{\MyTabs}{ \hspace*{25.mm} \= \hspace*{25.mm} \= \hspace*{25.mm} \= \hspace*{25.mm} \= \hspace*{25.mm} \= \hspace*{25.mm} \kill }
+
+\graphicspath{{../Figures/}{../data/:}}  % post-script figures here or in /.
+
+					% Helps LaTeX put figures where YOU want
+ \renewcommand{\topfraction}{0.9}	% 90% of page top can be a float
+ \renewcommand{\bottomfraction}{0.9}	% 90% of page bottom can be a float
+ \renewcommand{\textfraction}{0.1}	% only 10% of page must to be text
+
+\alph{footnote}				% make title footnotes alpha-numeric
+
+\title{Setting up a Website/\ Blog\\~\\ using Static site generators\\~\\}	% the document title
+
+\author{	Conor Gilmer BSc\\	% author information
+		Dublin \\
+		Ireland \\~\\
+		}
+
+\date{\today}				% your own text, a date, or \today
+
+% --------------------- end of the preamble ---------------------------
+
+%\documentclass{article}
+%\usepackage{hyperref}
+%\hypersetup{colorlinks, %
+%	citecolor=black,%
+%	linkcolor=black,%
+%	urlcolor=black,%
+%	pdftex}	
+%\usepackage{graphicx}
+
+%\title{ Road Trip\\ A Journey to Cork For Noel Mahers Bachelor Party\\ The procedings shall take the form of a Road trip\\}
+%\author{Conor Gilmer $<$\href{mailto:cgilmer@tinet.ie}{cgilmer@tinet.ie}$>$}
+
+
+\begin{document}
+\maketitle
+\newpage
+\tableofcontents
+\newpage
+
+\section{Static website generators}
+Recently I have begun to look again at static website genertors for creating websites and blogs. There is a number of them about and I am going to outline how to set the
+\begin{itemize}
+\item Jeykll
+\item Hyde
+\item Pelican
+\item Nikola
+\end{itemize}
+
+\newpage
+\section{Meta Tags}
+While the relevance of Meta tags have diminished over time, since people were using them purely and simply to get ranked and not reflecting the actual webpages to which they were on. Google hadly uses them now for ranking, however some other search engines still use them. \par
+It is still important to have relevant words. Particularly keywords which match content inside the page and linked content as well as header text title text.
+\begin{verbatim}
+<META HTTP-EQUIV="TITLE" CONTENT="My Companys Name">
+<!-- Limit to 10 keywords, do not repeat words, no spaces after comma -->
+<META NAME="KEYWORDS" CONTENT="Companyname, typeofbusiness, 
+businessrelevantword1, businessrelevantword2, businessrelevantword3....">
+<META NAME="DESCRIPTION" CONTENT="My Company Name">
+<!-- Do not edit below this line -->
+<META NAME="ROBOTS" CONTENT="index, follow">
+<META NAME="AUTHOR" CONTENT="Myself">
+....
+\end{verbatim}
+\subsection{Keywords}
+The keywords you choose for Metatags should be relevant to your website. ou should limit it to the 10 most salient keywords, it is a good idea to have certain key keywords repeated in the Headings, Title, Keywords, Links, Filenames and in the Text on your webpages. By reinforcement it the "keywords" relevence to your website therefore gets increase\par
+
+\begin{itemize}
+\item Meta Tag
+\item Title Text
+\item Headings
+\item Italics/Bold
+\item ALT Text behind pictures
+\item File names of pictures
+\item Multimedia Content?
+\end{itemize}
+
+
+\section{Robots.txt}
+To have your website crawled better by the search engine robots (googlebots, etc) you need a robots.txt file in your flat directory i.e. Http://www.mycompanyname.ie/robots.txt this allows tells the search engine robot to check sub directories and pages and not just the home/index page.
+\begin{verbatim}
+# /robots.txt
+
+# no exclusion at all
+Agent: *
+Disallow: 
+\end{verbatim}
+
+\newpage
+\section{Register with Search Engines and Directories}
+By far the most popular way people use the Internet to find information is via Search engines so getting on their databases is a priority. Another vehicle for searching the internet is browsing directories, where information is classified and organised into directories of websites of a similar topic.
+
+\subsection{Google}
+Google is the market leader of search engines, it has even won the battle to be the verb for searching on the internet. When your website is metatagged and tailored for search engines you should register your website with google. It is free to register with them and with in at the most six weeks your website should have been trawled by a \textit{googlebot}.\par
+http://www.google.com/addurl/?continue=/addurl
+
+
+\subsection{Yahoo}
+Yahoo is narrowly behind google in search engine charts. Yahoos software is also used by a pletora of smaller search engines so it is very imortant to be registered with Yahoo and get your webname into their database.\par
+http://search.yahoo.com/info/submit.html\\
+Select the submit for free, this takes some time to get you registered and on their database, as with many yahoo products they ask that you set up and use a yahoo account before you do this
+
+\subsubsection{Yahoo Directories}
+While Yahoo Directory costs to get immediately list\\ https://ecom.yahoo.com/dir/submit/intro/\\
+you can get into these directories since they do use the Open Directory Project.
+
+
+\subsection{MSN}
+While MSN is the new kid on the block of search engines it only takes a few moments to register with them.
+
+\subsection{DMOZ}
+DMOZ is an open source directory service, you can log on an select the category you wish to classify your site in and they should. DMOZ is used by a number of directory services, like Google Directory (http://www.google.com/dirhp) 
+
+\subsection{Google, Yahoo and MSN/Live Images}
+If your site has been trawled by search engine robots and there is Images on the website they will be on the Search Engine Images listings.
+
+
+\subsection{Sitemaps}
+Another way to get quicker and better evaluation by search engines it to have a sitemap file (either xml/html) on your website even if it is not generally navigable from the site this is a quick map of the site to the search engine to trawl through your website. As you see in the Sitemap.xml file in Appendix 1, the sitemap just lists the pages you have.\par 
+There are a number of scripts in php and perl which would generate a sitemap.html or xml file. There are also a number of online sitemap generators which create a sitemap file for you : -\\ e.g. http://www.xml-sitemaps.com/ \par
+Every time a new page is added, for that page to be be rated/ranked quickly the sitemap file should be regenerated!
+
+\subsubsection{Google Sitemaps}
+When this is created register this file with search enging sitemaps\\ (http://www.google.com/webmasters/sitemaps/login there was a beta yahoo version)
+
+
+\section{Link Building}
+By association it is good to be linked to from other websites which have high search engine rankings. It is desireable to be linked to from the websites of your previous clients, this is a search engine benefit, but it is also beneficial when viewed by a prospective client.\par
+Salient links are always beneficial to getting a site ranked (try and avoid link farms but directories are ususally ), so if your business or service is in a particular area, the local area online directory should be browse and email asking them to include you in their list, some would have online link submittal forms where you would complete a little paragraph(Your sales pitch).
+
+
+
+
+\section{Content}
+Content can be tailored to be "searchengine clever", by using salient words in page titles, Headings $<$H1$>$, text in actual links, $<$ALT$>$ Text for images when mouse hovers over the image (displayed in Internet Explorer)\par
+
+\textbf{Alternative text for Images - ALT}
+\begin{verbatim}
+<img src=http://www.mywebname.ie/images/mylogo_sm.gif alt="My Company Logo"
+ width=143 height=59 hspace=5 vspace=5 border=0></a>
+\end{verbatim}
+
+\textbf{Headings}
+\begin{verbatim}
+<h1>The Greatest Company in Rahney</h1>
+\end{verbatim}
+
+\newpage
+\section{Social Networking, Blogging and Web 2.0}
+The explosion on to the scene in recent years of social networking and web 2.0 channels of communication provide different ways of attracting people to view your website or delivering your online material to them.
+
+\begin{itemize}
+\item Yahoo Groups/360
+\item Google Groups
+\item RSS News Feeds/ATOM
+\item MySpace
+\item Bebo
+\item Facebook
+\item LinkedIn
+\item Hi5
+\item YouTube (video sharing owned by google now)
+\item Vimeo (video Sharing)
+\item MetaCafe (Video Sharing)
+\item Orkut (google)
+\item nimble (Irish Based)
+\item Message Boards e.g. boards.ie
+\item Blogs e.g. Live Journal, blogs.ie, blogspot, eblogger etc.
+\item Micro Blogs - twitter
+\end{itemize}
+
+The benefits of many of these networks and web facilities, is that in many cases such as groups and social networks it allows for potential clients to communicate with you, it also allows them to ``opt in'' to recieve information from you, and in the cases of the groups, message boards, blogs and social networking allows them to provide potential content for you. 
+
+The potential content that users can generate is a massive double edged sword since you are opening up to the anarchy of the Internet and while positive information may be produced so to can negative content, and this must be addressed.
+
+\newpage
+
+
+\begin{thebibliography}{9}
+
+\bibitem{SBPCIB} A. Weckler, \emph{Social Networking Tools},  Computers in Business : Sunday Business Post (September 2007), 8-11 available at 
+http://www.thepost.ie.
+
+\end{thebibliography}
+
+
+
+
+\newpage
+\appendix
+\section{Appendix 1}
+\subsection{sitemap.xml}
+Here is the Format of a Sitemap XML file for google-sitemaps. There are a number of ways to create these files, there are a number of scripts available, there are also a number of websites which will generate a sitemap.xml for your website.
+\begin{verbatim}
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.google.com/schemas/sitemap/0.84"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.google.com/schemas/sitemap/0.84
+                      http://www.google.com/schemas/sitemap/0.84/sitemap.xsd">
+
+<url>
+  <loc>http://www.mycompanyname.ie/</loc>
+  <priority>0.5</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.mycompanyname.ie/index.html</loc>
+  <priority>0.5</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.mycompanyname.ie/about.html</loc>
+  <priority>0.5</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.mycompanyname.ie/services.html</loc>
+  <priority>0.5</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.mycompanyname.ie/clients.html</loc>
+  <priority>0.5</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.mycompanyname.ie/testimonials.html</loc>
+  <priority>0.5</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.mycompanyname.ie/contact.html</loc>
+  <priority>0.5</priority>
+  <changefreq>daily</changefreq>
+</url>
+</urlset>
+\end{verbatim}
+
+%newpage
+%\section{Appendix 3}
+
+%\begin{figure}[hbt]
+%\begin{center}%
+%\hypertarget{fig}{}%
+
+%{{\includegraphics[width=17cm]{corkmap}}}
+%\caption{{{Cork city center}}}
+%\label{fig}
+%\end{center}
+%\end{figure}
+
+
+\copyright 2006, 2007, 2008 Conor Gilmer  all rights UNreserved.
+
+\end{document}
