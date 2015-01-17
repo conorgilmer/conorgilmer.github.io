@@ -65,7 +65,7 @@
 \newpage
 
 \section{Static website generators}
-Recently I have begun to look again at static website generators for creating websites and blogs. Static Website Generation is not a new concept, I have used a number of Perl based ones in the past, but more recently they have seemed to get some energy as alternatives to a CSS and particularly as they suit documentation and publishing to some cloud services such as \textit{github pages}. There is a number of them about and I am going to outline my thoughts and how to use them.
+Recently I have begun to look again at static website generators for creating websites and blogs. Static Website Generation is not a new concept, I have used a number of Perl based ones and eve LaTex in the past, but more recently they have seemed to get some energy as alternatives to a Content Management System (CMS) and particularly as they suit documentation and publishing to some cloud services such as \textit{github pages}. There is a number of them about and I am going to outline my thoughts and how to use them.
 \begin{itemize}
 \item Jeykll
 \item Hyde
@@ -81,12 +81,15 @@ Is a Ruby Static website generator, it seems quite favoured with github pages
 \newpage
 \section{Hyde}
 Is a Static website generator which uses python, similar to its alter ego Jeykll.
-
+While is it uses python, no specific python knowledge is required to use it. Hyde uses a Django based templating system. 
 
 \subsection{Install}
-The easiest way to install Hyde was to use easy\_install.
+The easiest way to install Hyde was to use \textit{easy\_install} or \textit{pip install}.
 \begin{verbatim}
 sudo easy_install hyde
+or
+pip install hyde
+pip install jinja
 \end{verbatim}
 
 \subsection{Create Hyde Project}
@@ -258,9 +261,8 @@ Overall I like SSG and I think they are a powerful tool to generate a website.
 \newpage
 \begin{thebibliography}{9}
 
-\bibitem{SBPCIB} A. Weckler, \emph{Social Networking Tools},  Computers in Business : Sunday Business Post (September 2007), 8-11 available at 
-http://www.thepost.ie.
-
+\bibitem{IBMHYDE} Uche Ogbuji, \emph{Build rapid and lightweigh websites}, IBM Developer Works (February 2013), http://www.ibm.com/developerworks/library/wa-hyde/wa-hyde-pdf.pdf.  
+%\bibitem{SBPCIB} A. Weckler, \emph{Social Networking Tools},  Computers in Business : Sunday Business Post (September 2007), 8-11 available at http://www.thepost.ie.  
 \end{thebibliography}
 
 
