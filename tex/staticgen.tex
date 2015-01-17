@@ -82,6 +82,28 @@ Is a Ruby Static website generator, it seems quite favoured with github pages
 \section{Hyde}
 Is a Static website generator which uses python, similar to its alter ego Jeykll.
 
+
+\subsection{Install}
+The easiest way to install Hyde was to use easy\_install.
+\begin{verbatim}
+sudo easy_install hyde
+\end{verbatim}
+
+\subsection{Create Hyde Project}
+\begin{verbatim}
+mkdir hydesite
+cd hydesite
+hyde -s create
+
+\end{verbatim}
+
+\subsection{Generate Site and Run on Local Server}
+You then generate the static html, and you can view it by running the hyde server.
+\begin{verbatim}
+hyde gen
+hyde serve
+\end{verbatim}
+
 \newpage
 \section{Pelican}
 Is a Static website generator which uses python
@@ -191,8 +213,23 @@ You can use + or * to list
 3 Third Item
 \end{verbatim}
 
+\subsection{tables}
+
+\begin{verbatim}
+| A     | B     | Result |
+| ----- | ----- |:------:|
+| True  | True  | True   |
+| True  | False | False  |
+| False | True  | False  |
+| False | False | False  |
+
+\end{verbatim}
 \subsection{Inserting an Image}
 Inserting an image with markdown.
+\begin{verbatim}
+![Pelican](../../images/pelican.jpg)
+\end{verbatim}
+In this case i have an image in a directory in the main file so to be accessed from a markdown file in the /content/pages/ directory you have to specifiy the page
 
 \newpage
 \begin{thebibliography}{9}
