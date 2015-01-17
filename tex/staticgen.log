@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.8)  17 JAN 2015 04:39
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.8)  17 JAN 2015 19:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -158,36 +158,27 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 70.
  [4] [5]
-[6] [7] [8] [9] [10]
-Underfull \hbox (badness 10000) in paragraph at lines 191--192
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 191--192
-
- []
-
-[11] [12] [13] [14] [15] [16] (./staticgen.aux) ) 
+[6] [7] [8] [9] [10] [11] [12] [13] [14] [15] (./staticgen.aux) ) 
 Here is how much of TeX's memory you used:
  1517 strings out of 494536
- 22146 string characters out of 6167447
+ 22147 string characters out of 6167447
  78347 words of memory out of 5000000
  4770 multiletter control sequences out of 15000+600000
  9324 words of font info for 33 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 37i,6n,23p,513b,241s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2013basic/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2013ba
-sic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/201
-3basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/
-2013basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
-ive/2013basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/
-texlive/2013basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on staticgen.pdf (16 pages, 89751 bytes).
+ 37i,6n,23p,555b,201s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/te
+xlive/2013basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/loca
+l/texlive/2013basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/l
+ocal/texlive/2013basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></us
+r/local/texlive/2013basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+</usr/local/texlive/2013basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.
+pfb></usr/local/texlive/2013basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
+t12.pfb>
+Output written on staticgen.pdf (15 pages, 89672 bytes).
 PDF statistics:
- 80 PDF objects out of 1000 (max. 8388607)
- 55 compressed objects within 1 object stream
+ 77 PDF objects out of 1000 (max. 8388607)
+ 53 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

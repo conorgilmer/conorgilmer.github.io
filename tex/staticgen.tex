@@ -77,11 +77,12 @@ Recently I have begun to look again at static website generators for creating we
 \newpage
 \section{Jeykll}
 Is a Ruby Static website generator, it seems quite favoured with github pages
+No specific ruby coding skills are needed, but ruby is needed.
 
 \newpage
 \section{Hyde}
 Is a Static website generator which uses python, similar to its alter ego Jeykll.
-While is it uses python, no specific python knowledge is required to use it. Hyde uses a Django based templating system. 
+While it uses python, no specific python knowledge is required to use it. (In my case I used Python 2.7 installed with Anaconda) Hyde uses a Django based templating system, Jinja2. 
 
 \subsection{Install}
 The easiest way to install Hyde was to use \textit{easy\_install} or \textit{pip install}.
@@ -109,7 +110,7 @@ hyde serve
 
 \newpage
 \section{Pelican}
-Is a Static website generator which uses python
+Is a Static website generator which uses python, although again no specific python skills are required to use the system.
 \subsection{Installation}
 \begin{verbatim}
 pip install pelican
@@ -187,11 +188,11 @@ Headings are indicated by the Hash Symbol, the number of which indicate if it is
 \end{verbatim}
 \subsection{Bold, Italics or Strikethrough}
 For empasis Bold or Italics are often used, and sometime text needs to have a line through it.\par
-Italics uses *asterisks* or \_underscores\_ resulting in \textit{italicised} \par
-Bold uses **two asterisks** or \_\_two underscores\_\_ resulting in \textbf{bolded} \par
+Italics uses *asterisks* or \textunderscore underscores\textunderscore resulting in \textit{italicised} \par
+Bold uses **two asterisks** or \textunderscore\textunderscore two underscores\textunderscore\textunderscore resulting in \textbf{bolded} \par
 
 
-Strikerhough is achived by using two tildes(\\~) e.g. \\~\\~2tildes\\~\\~ results a line through the text.
+Strikerhough is achived by using two tildes(\~{}) e.g. \~{}\~{}2tildes\~{}\~{} results a line through the text.
 
 \subsection{Links}
 A link can be as simple, where just the URL is written 
