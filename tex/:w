@@ -173,7 +173,7 @@ Another static website generator.
 Since i have used Markdown for the above here is a few items from it
 
 \subsection{Headings}
-Headings are indicated by the Hash Symbol, the number of which indicate if it is H1, H2, H3 etc.
+Headings are indicated by the Hash Symbol \#, the number of which indicate if it is H1, H2, H3 etc.
 \begin{verbatim}
 #This is H1
 ##This is H2
