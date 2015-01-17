@@ -1,27 +1,28 @@
-\contentsline {section}{\numberline {1}Static website generators}{3}
-\contentsline {section}{\numberline {2}Jeykll}{4}
-\contentsline {section}{\numberline {3}Hyde}{5}
-\contentsline {subsection}{\numberline {3.1}Install}{5}
-\contentsline {subsection}{\numberline {3.2}Create Hyde Project}{5}
-\contentsline {subsection}{\numberline {3.3}Generate Site and Run on Local Server}{5}
-\contentsline {section}{\numberline {4}Pelican}{6}
-\contentsline {subsection}{\numberline {4.1}Installation}{6}
-\contentsline {subsection}{\numberline {4.2}Adding Content}{6}
-\contentsline {subsubsection}{\numberline {4.2.1}Pages}{6}
-\contentsline {subsubsection}{\numberline {4.2.2}Blogs}{6}
-\contentsline {subsection}{\numberline {4.3}Generating the Website}{7}
-\contentsline {section}{\numberline {5}Deploying/Publishing}{8}
-\contentsline {subsection}{\numberline {5.1}Github Pages}{8}
-\contentsline {subsection}{\numberline {5.2}DropBox}{8}
-\contentsline {subsection}{\numberline {5.3}FTP to a Host}{8}
-\contentsline {section}{\numberline {6}Nikola}{9}
-\contentsline {section}{\numberline {7}Markdown}{10}
-\contentsline {subsection}{\numberline {7.1}Bold, Italics or Strikethrough}{10}
-\contentsline {subsection}{\numberline {7.2}Links}{10}
-\contentsline {subsection}{\numberline {7.3}Lists}{10}
-\contentsline {subsubsection}{\numberline {7.3.1}Unordered Lists}{10}
-\contentsline {subsubsection}{\numberline {7.3.2}Ordered Lists}{11}
-\contentsline {subsection}{\numberline {7.4}tables}{11}
-\contentsline {subsection}{\numberline {7.5}Inserting an Image}{11}
-\contentsline {section}{\numberline {A}Appendix 1}{13}
-\contentsline {subsection}{\numberline {A.1}sitemap.xml}{13}
+\contentsline {section}{\numberline {1}Static website generators}{4}
+\contentsline {section}{\numberline {2}Jeykll}{5}
+\contentsline {section}{\numberline {3}Hyde}{6}
+\contentsline {subsection}{\numberline {3.1}Install}{6}
+\contentsline {subsection}{\numberline {3.2}Create Hyde Project}{6}
+\contentsline {subsection}{\numberline {3.3}Generate Site and Run on Local Server}{6}
+\contentsline {section}{\numberline {4}Pelican}{7}
+\contentsline {subsection}{\numberline {4.1}Installation}{7}
+\contentsline {subsection}{\numberline {4.2}Adding Content}{7}
+\contentsline {subsubsection}{\numberline {4.2.1}Pages}{7}
+\contentsline {subsubsection}{\numberline {4.2.2}Blogs}{7}
+\contentsline {subsection}{\numberline {4.3}Generating the Website}{8}
+\contentsline {section}{\numberline {5}Deploying/Publishing}{9}
+\contentsline {subsection}{\numberline {5.1}Github Pages}{9}
+\contentsline {subsection}{\numberline {5.2}DropBox}{9}
+\contentsline {subsection}{\numberline {5.3}FTP to a Host}{9}
+\contentsline {section}{\numberline {6}Nikola}{10}
+\contentsline {section}{\numberline {7}Markdown}{11}
+\contentsline {subsection}{\numberline {7.1}Bold, Italics or Strikethrough}{11}
+\contentsline {subsection}{\numberline {7.2}Links}{11}
+\contentsline {subsection}{\numberline {7.3}Lists}{11}
+\contentsline {subsubsection}{\numberline {7.3.1}Unordered Lists}{11}
+\contentsline {subsubsection}{\numberline {7.3.2}Ordered Lists}{12}
+\contentsline {subsection}{\numberline {7.4}tables}{12}
+\contentsline {subsection}{\numberline {7.5}Inserting an Image}{12}
+\contentsline {section}{\numberline {8}Conclusion}{13}
+\contentsline {section}{\numberline {A}Appendix 1}{15}
+\contentsline {subsection}{\numberline {A.1}sitemap.xml}{15}
