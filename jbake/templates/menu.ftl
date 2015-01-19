@@ -28,6 +28,7 @@
                 <li><a href="#">One more separated link</a></li>
               </ul>
             </li> -->
+            <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>colophon.html">Colophon</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
