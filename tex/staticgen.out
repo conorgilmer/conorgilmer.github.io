@@ -10,13 +10,13 @@
 \BOOKMARK [3][-]{subsubsection.4.2.1}{Pages}{subsection.4.2}% 10
 \BOOKMARK [3][-]{subsubsection.4.2.2}{Blogs}{subsection.4.2}% 11
 \BOOKMARK [2][-]{subsection.4.3}{Generating the Website}{section.4}% 12
-\BOOKMARK [1][-]{section.5}{Deploying/Publishing}{}% 13
-\BOOKMARK [2][-]{subsection.5.1}{Github Pages}{section.5}% 14
-\BOOKMARK [2][-]{subsection.5.2}{DropBox}{section.5}% 15
-\BOOKMARK [2][-]{subsection.5.3}{FTP to a Host}{section.5}% 16
-\BOOKMARK [1][-]{section.6}{Nikola}{}% 17
-\BOOKMARK [1][-]{section.7}{JBake}{}% 18
-\BOOKMARK [2][-]{subsection.7.1}{Installing JBake and Quickstart}{section.7}% 19
+\BOOKMARK [1][-]{section.5}{Nikola}{}% 13
+\BOOKMARK [1][-]{section.6}{JBake}{}% 14
+\BOOKMARK [2][-]{subsection.6.1}{Installing JBake and Quickstart}{section.6}% 15
+\BOOKMARK [1][-]{section.7}{Deploying/Publishing}{}% 16
+\BOOKMARK [2][-]{subsection.7.1}{Github Pages}{section.7}% 17
+\BOOKMARK [2][-]{subsection.7.2}{DropBox}{section.7}% 18
+\BOOKMARK [2][-]{subsection.7.3}{FTP to a Host}{section.7}% 19
 \BOOKMARK [1][-]{section.8}{Markdown}{}% 20
 \BOOKMARK [2][-]{subsection.8.1}{Headings}{section.8}% 21
 \BOOKMARK [2][-]{subsection.8.2}{Bold, Italics or Strikethrough}{section.8}% 22

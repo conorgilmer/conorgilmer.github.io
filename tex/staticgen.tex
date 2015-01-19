@@ -155,20 +155,6 @@ pelican content/ -s settings.py
 \end{verbatim}
 The site is then generated in the \textit{output} directory.
 
-\newpage
-\section{Deploying/Publishing}
-\subsection{Github Pages}
-Most of the newer static website generators are convienently setup for publishing ong github pages (username.github.io).
-\subsection{DropBox}
-You can also deploy to your Dropbox account.
-\subsection{FTP to a Host}
-You can just FTP the contents of the output directory to you host, the website should be generated to the domain and page of your host.
-
-\begin{verbatim}
-git add .
-git commit -m "updates"
-git push origin master
-\end{verbatim}
 
 \newpage
 \section{Nikola}
@@ -188,6 +174,23 @@ jbake -i
 jbake
 jbake -s
 \end{verbatim}
+
+
+\newpage
+\section{Deploying/Publishing}
+\subsection{Github Pages}
+Most of the newer static website generators are convienently setup for publishing ong github pages (username.github.io).
+\subsection{DropBox}
+You can also deploy to your Dropbox account.
+\subsection{FTP to a Host}
+You can just FTP the contents of the output directory to you host, the website should be generated to the domain and page of your host.
+
+\begin{verbatim}
+git add .
+git commit -m "updates"
+git push origin master
+\end{verbatim}
+
 
 
 \newpage

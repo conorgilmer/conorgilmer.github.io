@@ -10,13 +10,13 @@
 \contentsline {subsubsection}{\numberline {4.2.1}Pages}{7}{subsubsection.4.2.1}
 \contentsline {subsubsection}{\numberline {4.2.2}Blogs}{8}{subsubsection.4.2.2}
 \contentsline {subsection}{\numberline {4.3}Generating the Website}{8}{subsection.4.3}
-\contentsline {section}{\numberline {5}Deploying/Publishing}{9}{section.5}
-\contentsline {subsection}{\numberline {5.1}Github Pages}{9}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}DropBox}{9}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}FTP to a Host}{9}{subsection.5.3}
-\contentsline {section}{\numberline {6}Nikola}{10}{section.6}
-\contentsline {section}{\numberline {7}JBake}{11}{section.7}
-\contentsline {subsection}{\numberline {7.1}Installing JBake and Quickstart}{11}{subsection.7.1}
+\contentsline {section}{\numberline {5}Nikola}{9}{section.5}
+\contentsline {section}{\numberline {6}JBake}{10}{section.6}
+\contentsline {subsection}{\numberline {6.1}Installing JBake and Quickstart}{10}{subsection.6.1}
+\contentsline {section}{\numberline {7}Deploying/Publishing}{11}{section.7}
+\contentsline {subsection}{\numberline {7.1}Github Pages}{11}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}DropBox}{11}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}FTP to a Host}{11}{subsection.7.3}
 \contentsline {section}{\numberline {8}Markdown}{12}{section.8}
 \contentsline {subsection}{\numberline {8.1}Headings}{12}{subsection.8.1}
 \contentsline {subsection}{\numberline {8.2}Bold, Italics or Strikethrough}{12}{subsection.8.2}
