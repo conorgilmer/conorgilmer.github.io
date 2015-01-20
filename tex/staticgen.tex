@@ -81,6 +81,20 @@ Recently I have begun to look again at static website generators for creating we
 \section{Jeykll}
 Is a Ruby Static website generator, it seems quite favoured with github pages
 No specific ruby coding skills are needed, but ruby is needed.
+Jekyll uses markdown for composing content (it also can use TexTile).
+\subsection{Install and Configure}
+
+\begin{verbatim}
+
+gem install jekyll
+jekyll new myblog
+cd myblog
+jekyll build
+jekyll serve
+
+\end{verbatim}
+
+
 
 \newpage
 \section{Hyde}
@@ -203,6 +217,7 @@ You can also deploy to your Dropbox account. As well as static website generator
 
 \subsection{Google Drive}
 Hosting a website/blog on google drive was easier with the older version, you could just upload your static website content (HTML/CSS/JavaScript) and then set the sharing permissions to public to publish it to the world. Just like GitHub Pages, and Dropbox google drive can not be used for serving dynamic content such as php or wordpress sites.
+For the newer version of Google Drive you can host a site on it, one way is to use the Google Script is written by Amit Agarwal. Zip up the site/blog you want to deploy and upload it via the script a link will be generated for you.
 
 \subsection{FTP to a Host}
 You can just FTP the contents of the output directory to you host, the website should be generated to the domain and page of your host.
