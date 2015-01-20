@@ -158,12 +158,23 @@ The site is then generated in the \textit{output} directory.
 
 \newpage
 \section{Nikola}
-Another static website generator.
+Another static website generator which uses python. You can install it with pip and install various themes, after you have built your blog or website you can run it locally by using nikola serve, which makes the site available on localhost:8000.
 
+\section{Install and Setup}
+\begin{verbatim}
+pip install nikola
+mkdir mysite
+cd mysite
+nikola init mysite
+
+
+nikola build
+nikola serve 
+\end{verbatim}
 
 \newpage
 \section{JBake}
-JBake is a Java based static website generator, like the other SWG's discussed here, it also can use Markdown.
+JBake is a Java based static website generator, like the other SWG's discussed here, it also can use a limited form of Markdown, as well as HTML and JBake specific formats of input.
 \subsection{Installing JBake and Quickstart}
 The below should install JBake, set up a project directory, intialise a JBake structure, run jbake to generate the html output, and to run the JBake (Jetty) server which launches 
 \begin{verbatim}
