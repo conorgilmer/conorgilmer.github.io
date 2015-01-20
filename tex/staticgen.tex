@@ -69,10 +69,11 @@
 \section{Static website generators}
 Recently I have begun to look again at static website generators for creating websites and blogs. Static Website Generation is not a new concept, I have used a number of Perl based ones and eve LaTex in the past, but more recently they have seemed to get some energy as alternatives to a Content Management System (CMS) and particularly as they suit documentation and publishing to some cloud services such as \textit{github pages}. There is a number of them about and I am going to outline my thoughts and how to use them.
 \begin{itemize}
-\item Jeykll
+\item Jekyll
 \item Hyde
 \item Pelican
 \item Nikola
+\item JBake
 \end{itemize}
 
 
@@ -191,16 +192,21 @@ jbake -s
 \section{Deploying/Publishing}
 \subsection{Github Pages}
 Most of the newer static website generators are convienently setup for publishing ong github pages (username.github.io).
-\subsection{DropBox}
-You can also deploy to your Dropbox account. As well as static website generators there is a scriptogr.am is a blogging plugin which allows you to blog to your Dropbox account.
-\subsection{FTP to a Host}
-You can just FTP the contents of the output directory to you host, the website should be generated to the domain and page of your host.
-
 \begin{verbatim}
 git add .
 git commit -m "updates"
 git push origin master
 \end{verbatim}
+
+\subsection{DropBox}
+You can also deploy to your Dropbox account. As well as static website generators there is a scriptogr.am is a blogging plugin which allows you to blog to your Dropbox account.
+
+\subsection{Google Drive}
+Hosting a website/blog on google drive was easier with the older version, you could just upload your static website content (HTML/CSS/JavaScript) and then set the sharing permissions to public to publish it to the world. Just like GitHub Pages, and Dropbox google drive can not be used for serving dynamic content such as php or wordpress sites.
+
+\subsection{FTP to a Host}
+You can just FTP the contents of the output directory to you host, the website should be generated to the domain and page of your host.
+
 
 
 
@@ -224,7 +230,7 @@ Italics uses *asterisks* or \textunderscore underscores\textunderscore resulting
 Bold uses **two asterisks** or \textunderscore\textunderscore two underscores\textunderscore\textunderscore resulting in \textbf{bolded} \par
 
 
-Strikerhough is achived by using two tildes(\~{}) e.g. \~{}\~{}2tildes\~{}\~{} results a line through the text.
+Strikethrough is achived by using two tildes(\~{}) e.g. \~{}\~{}2tildes\~{}\~{} results a line through the text.
 
 \subsection{Links}
 A link can be as simple, where just the URL is written 

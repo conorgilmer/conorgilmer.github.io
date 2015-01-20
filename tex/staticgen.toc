@@ -17,7 +17,8 @@
 \contentsline {section}{\numberline {7}Deploying/Publishing}{11}{section.7}
 \contentsline {subsection}{\numberline {7.1}Github Pages}{11}{subsection.7.1}
 \contentsline {subsection}{\numberline {7.2}DropBox}{11}{subsection.7.2}
-\contentsline {subsection}{\numberline {7.3}FTP to a Host}{11}{subsection.7.3}
+\contentsline {subsection}{\numberline {7.3}Google Drive}{11}{subsection.7.3}
+\contentsline {subsection}{\numberline {7.4}FTP to a Host}{11}{subsection.7.4}
 \contentsline {section}{\numberline {8}Markdown}{12}{section.8}
 \contentsline {subsection}{\numberline {8.1}Headings}{12}{subsection.8.1}
 \contentsline {subsection}{\numberline {8.2}Bold, Italics or Strikethrough}{12}{subsection.8.2}
