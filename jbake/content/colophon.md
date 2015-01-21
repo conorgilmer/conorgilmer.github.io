@@ -8,3 +8,4 @@ Technologies used in the composition of this site.
 
 | JBake | Bootstrap |
 | Java | Github |
+| Jetty - local webserver | Vim - Editor |
