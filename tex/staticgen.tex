@@ -81,7 +81,6 @@ Recently I have begun to look again at static website generators for creating we
 \section{Jeykll}
 Is a Ruby Static website generator, it seems quite favoured with github pages
 No specific ruby coding skills are needed, but ruby is needed.
-Jekyll uses markdown for composing content (it also can use TexTile).
 \subsection{Install and Configure}
 
 \begin{verbatim}
@@ -90,10 +89,11 @@ gem install jekyll
 jekyll new myblog
 cd myblog
 jekyll build
-jekyll serve
+jekyll server
 
 \end{verbatim}
-
+The Jekyll server runs on port 4000 localhost so you can locally test the site that has just been built.
+Jekyll uses markdown or textile for composing content, but since i am familiar with markdown I used this. The layout can be formatted by configuring a theme/template, and these can be edited.
 
 
 \newpage
@@ -167,8 +167,10 @@ The Date is the time the post will timestamped at, and you can have minutes as w
 \subsection{Generating the Website}
 \begin{verbatim}
 pelican content/ -s settings.py
+cd output
+python -m SimpleHTTPServer 8018
 \end{verbatim}
-The site is then generated in the \textit{output} directory.
+The site is then generated in the \textit{output} directory. The site can be run on the local maching by using the SimpleHTTPServer.
 
 
 \newpage
@@ -191,7 +193,7 @@ nikola serve
 \section{JBake}
 JBake is a Java based static website generator, like the other SWG's discussed here, it also can use a limited form of Markdown, as well as HTML and JBake specific formats of input.
 \subsection{Installing JBake and Quickstart}
-The below should install JBake, set up a project directory, intialise a JBake structure, run jbake to generate the html output, and to run the JBake (Jetty) server which launches 
+The below should install JBake, set up a project directory, intialise a JBake structure, run jbake to generate the html output, and to run the JBake (Jetty) server which launches the website on your localmachine.
 \begin{verbatim}
 brew install jbake
 mkdir project
@@ -200,7 +202,7 @@ jbake -i
 jbake
 jbake -s
 \end{verbatim}
-
+Different templates can be deployed, one of the default templates is Bootstrap. One of the differences from other SSG's is that a bit more configuring by editing the .ftl files to customise the site to your requirements.
 
 \newpage
 \section{Deploying/Publishing}
@@ -338,6 +340,14 @@ Overall I like SSG and I think they are a powerful tool to generate a website.
 \item\url{http://www.java.com} - Java
 \item\url{http://www.jbake.org} - JBake
 \end{itemize}
+
+
+\section{Appendix 2}
+To generate a simple html file form Markdown you can use Perl (using Markdown.pl or python, below with Python and Markdown installed.
+\begin{verbatim}
+pip install Markdown
+python -m markdown howto.md > howto.html
+\end{verbatim}
 
 \copyright 2014, 2015 Conor Gilmer  all rights UNreserved.
 
