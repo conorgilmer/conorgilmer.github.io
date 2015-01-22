@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JBake</title>
+    <link>http://jbake.org</link>
+    <atom:link href="http://jbake.org/feed.xml" rel="self" type="application/rss+xml" />
+    <description>JBake Bootstrap Template</description>
+    <language>en-gb</language>
+    <pubDate>Mon, 19 Jan 2015 16:05:26 +0000</pubDate>
+    <lastBuildDate>Mon, 19 Jan 2015 16:05:26 +0000</lastBuildDate>
+
+    <item>
+      <title>Pelican</title>
+      <link>http://jbake.org/blog/2015/pelican.html</link>
+      <pubDate>Fri, 2 Jan 2015 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">blog/2015/pelican.html</guid>
+      	<description>
+	&lt;p&gt;I used &lt;a href=&quot;http://www.getpelican.com&quot;&gt;Pelican&lt;/a&gt; for a simple site/blog, of the newer static website genertors, it is probably the one i favour. It is integrated fairly well for publishing to github pages, while it is python based, no specific python coding skills are required. It uses Markdown (and other languages) to be rendered into HTML.&lt;/p&gt;
+	</description>
+    </item>
+    <item>
+      <title>Static Website generators</title>
+      <link>http://jbake.org/blog/2014/static.html</link>
+      <pubDate>Mon, 29 Dec 2014 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">blog/2014/static.html</guid>
+      	<description>
+	&lt;p&gt;I have dabbled in various Static website/blog generators, which seem to be increasing in popularity.&lt;br/&gt;* &lt;a href=&quot;http://www.getpelican.com&quot;&gt;Pelican&lt;/a&gt;&lt;br/&gt;* &lt;a href=&quot;http://www.getnikola.com&quot;&gt;Nikola&lt;/a&gt;&lt;br/&gt;* &lt;a href=&quot;http://www.jbake.org&quot;&gt;JBake&lt;/a&gt;&lt;br/&gt;* &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;&lt;br/&gt;* &lt;a href=&quot;http://hyde.github.io/&quot;&gt;Hyde&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Overall I like Pelican and JBake (by virtue of my java past) many of these are excellent for blogs, and for documentation but aslo for types of website. Static website generators seem to dove tail into many cloud hosting services such as github pages.&lt;/p&gt;
+	</description>
+    </item>
+    <item>
+      <title>Python - Anaconda</title>
+      <link>http://jbake.org/blog/2014/anaconda.html</link>
+      <pubDate>Sun, 10 Aug 2014 00:00:00 +0100</pubDate>
+      <guid isPermaLink="false">blog/2014/anaconda.html</guid>
+      	<description>
+	&lt;p&gt;I have used some scripting languages in the past, mostly Perl. Python which is quite popular has many advocates. One thing I found Python is especially good at is data crunching. I found Anaconda an excellent tool for python.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.python.org&quot;&gt;Python&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://continuum.io/downloads&quot;&gt;Anaconda&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+	</description>
+    </item>
+
+  </channel> 
+</rss>
