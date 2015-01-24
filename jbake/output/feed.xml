@@ -6,8 +6,8 @@
     <atom:link href="http://jbake.org/feed.xml" rel="self" type="application/rss+xml" />
     <description>JBake Bootstrap Template</description>
     <language>en-gb</language>
-    <pubDate>Sat, 24 Jan 2015 17:49:10 +0000</pubDate>
-    <lastBuildDate>Sat, 24 Jan 2015 17:49:10 +0000</lastBuildDate>
+    <pubDate>Sat, 24 Jan 2015 17:59:43 +0000</pubDate>
+    <lastBuildDate>Sat, 24 Jan 2015 17:59:43 +0000</lastBuildDate>
 
     <item>
       <title>Hosting Static Sites</title>
@@ -50,12 +50,30 @@
 	</description>
     </item>
     <item>
+      <title>MAMP versus XAMPP</title>
+      <link>http://jbake.org/blog/2013/mampxampp.html</link>
+      <pubDate>Thu, 28 Nov 2013 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">blog/2013/mampxampp.html</guid>
+      	<description>
+	&lt;p&gt;Both MAMP and XAMPP on the mac have their benefits, XAMPP because it is the same on other platforms, so its familiar, MAMP because its slicker and easy to use, is the one I favour and have been using for months, however I have noticed some annoyances.&lt;/p&gt;&lt;p&gt;CURL was trying to use curl to send a request to twitter api and code was fine but it didnt work error0 - tried the exact same code on Linux and Windows and it worked… I tried t on XAMPP and it also worked! which was when i noticed MAMP (my version had an old version of CURL)&lt;/p&gt;&lt;p&gt;One annoance is how MAMP Mysql allows you to have case sensitive table names etc., where SQL is no case sensitive, even if you rename the field/table it is better to delete and recreate &lt;/p&gt;&lt;p&gt;Another MySQL issue I had was the fact that since the version i had was configured for germans, it uses commas as decimal points and semi-colons as delimiters hence importing /exporting you have to be on your toes.&lt;/p&gt;
+	</description>
+    </item>
+    <item>
       <title>Moblie development with Corona SDK/Lua</title>
       <link>http://jbake.org/blog/2013/corona.html</link>
       <pubDate>Fri, 6 Sep 2013 00:00:00 +0100</pubDate>
       <guid isPermaLink="false">blog/2013/corona.html</guid>
       	<description>
 	&lt;p&gt;Well I have been doing a small project to develop on Corona SDK with Lua. The resources online are excellent, and youtube videos seem to get you up and running very quickly. I like the fact you can develop both for Android and iOS with the same code base.&lt;/p&gt;&lt;p&gt;Lua (&lt;a href=&quot;http://www.lua.org&quot;&gt;http://www.lua.org&lt;/a&gt;) is a nice language and with you can pick it up fairy quickly. I did feel like i was touching base with my educational qualifications, when using the physics library for bouncing etc.&lt;/p&gt;&lt;p&gt;Some tools i found useful were the Sublime Text editor initially, i did try eclipse some swings to get debugging to work, however i settled on using LuaGlider which i found handy and code completion is excellent.&lt;/p&gt;&lt;p&gt;The issues I had(have) was actually deploying on my phone, initially there was an issue in that to compile i had to down grade from Java 1.7 to 1.6, and also use the 32 version not 64. While it didn’t deploy to my phone it did install on others. As i searched i found it was to do with my phones processor the ARMv6 is no longer supported …dooh..&lt;/p&gt;&lt;p&gt;I did use an earlier Corona SDK version from 2011 which did deploy on my phone however it uses legacy libraries and not common modern ones especially such fundamental ones as widget.&lt;/p&gt;&lt;p&gt;I shall plow on…&lt;/p&gt;
+	</description>
+    </item>
+    <item>
+      <title>Content Management Systems which to choose</title>
+      <link>http://jbake.org/blog/2013/cmschoice.html</link>
+      <pubDate>Sat, 9 Feb 2013 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">blog/2013/cmschoice.html</guid>
+      	<description>
+	&lt;p&gt;I suppose to be differential in website look and feel and function, I have always favoured, more obscure or less common web content management systems. In the past various java/jsp based CMS’s with the usual hosting issues, and even before that a perl cgi/perl script based system more recently i have had to conform to more LAMP based ones even then php-nuke or nucleus the list is quite extensive, I have experienced the benefits and the flaws of many CMS platforms.&lt;/p&gt;&lt;p&gt;Recently I have deployed 4 wordpress sites, and while I am a big fan of it,especially its plugins, and you can easily see why it is the market leader so to speak, my big fear is that all sites will look and function the same and lose the variety and specificity which is beneficial. For some reason I always favoured wordpress over joomla perhaps it is me but i never liked a joomla site i did, and always preferred the wordpress or simplecms or A.N. Other.&lt;/p&gt;&lt;p&gt;My advice would be if your going to do a site or blog try another CMS other than the big two and see how you get on, and if you have to revert back to the big two try a different theme customise your own just do something different.&lt;/p&gt;
 	</description>
     </item>
     <item>
