@@ -6,8 +6,8 @@
     <atom:link href="http://jbake.org/feed.xml" rel="self" type="application/rss+xml" />
     <description>JBake Bootstrap Template</description>
     <language>en-gb</language>
-    <pubDate>Sat, 24 Jan 2015 17:44:54 +0000</pubDate>
-    <lastBuildDate>Sat, 24 Jan 2015 17:44:54 +0000</lastBuildDate>
+    <pubDate>Sat, 24 Jan 2015 17:49:10 +0000</pubDate>
+    <lastBuildDate>Sat, 24 Jan 2015 17:49:10 +0000</lastBuildDate>
 
     <item>
       <title>Hosting Static Sites</title>
@@ -47,6 +47,15 @@
   &lt;li&gt;&lt;a href=&quot;http://www.python.org&quot;&gt;Python&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://continuum.io/downloads&quot;&gt;Anaconda&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+	</description>
+    </item>
+    <item>
+      <title>Moblie development with Corona SDK/Lua</title>
+      <link>http://jbake.org/blog/2013/corona.html</link>
+      <pubDate>Fri, 6 Sep 2013 00:00:00 +0100</pubDate>
+      <guid isPermaLink="false">blog/2013/corona.html</guid>
+      	<description>
+	&lt;p&gt;Well I have been doing a small project to develop on Corona SDK with Lua. The resources online are excellent, and youtube videos seem to get you up and running very quickly. I like the fact you can develop both for Android and iOS with the same code base.&lt;/p&gt;&lt;p&gt;Lua (&lt;a href=&quot;http://www.lua.org&quot;&gt;http://www.lua.org&lt;/a&gt;) is a nice language and with you can pick it up fairy quickly. I did feel like i was touching base with my educational qualifications, when using the physics library for bouncing etc.&lt;/p&gt;&lt;p&gt;Some tools i found useful were the Sublime Text editor initially, i did try eclipse some swings to get debugging to work, however i settled on using LuaGlider which i found handy and code completion is excellent.&lt;/p&gt;&lt;p&gt;The issues I had(have) was actually deploying on my phone, initially there was an issue in that to compile i had to down grade from Java 1.7 to 1.6, and also use the 32 version not 64. While it didn’t deploy to my phone it did install on others. As i searched i found it was to do with my phones processor the ARMv6 is no longer supported …dooh..&lt;/p&gt;&lt;p&gt;I did use an earlier Corona SDK version from 2011 which did deploy on my phone however it uses legacy libraries and not common modern ones especially such fundamental ones as widget.&lt;/p&gt;&lt;p&gt;I shall plow on…&lt;/p&gt;
 	</description>
     </item>
     <item>
