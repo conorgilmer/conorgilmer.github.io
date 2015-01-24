@@ -6,9 +6,18 @@
     <atom:link href="http://jbake.org/feed.xml" rel="self" type="application/rss+xml" />
     <description>JBake Bootstrap Template</description>
     <language>en-gb</language>
-    <pubDate>Wed, 21 Jan 2015 00:32:44 +0000</pubDate>
-    <lastBuildDate>Wed, 21 Jan 2015 00:32:44 +0000</lastBuildDate>
+    <pubDate>Sat, 24 Jan 2015 17:23:35 +0000</pubDate>
+    <lastBuildDate>Sat, 24 Jan 2015 17:23:35 +0000</lastBuildDate>
 
+    <item>
+      <title>Hosting Static Sites</title>
+      <link>http://jbake.org/blog/2015/hosting.html</link>
+      <pubDate>Fri, 16 Jan 2015 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">blog/2015/hosting.html</guid>
+      	<description>
+	&lt;p&gt;There are a number of cloud hosting services for publishing a personal site/blog, they re excellent for hosting a static website/blog, where they dont require dynamic genertion or a CMS..&lt;br/&gt;github pages (upon which this site is hosted) is an example of such a service, another one is Dropbox, and google drive. Many of the Static Site generators are configured to publish directly to these services.&lt;/p&gt;
+	</description>
+    </item>
     <item>
       <title>Pelican</title>
       <link>http://jbake.org/blog/2015/pelican.html</link>
