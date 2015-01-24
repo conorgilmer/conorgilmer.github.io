@@ -14,7 +14,7 @@
   	</#list>
 	
 	<hr />
-	
+<!-- removed the / before ${config.a to make it work as a subpage on githubpages -->	
 	<p>Older posts are available in the <a href="${config.archive_file}">archive</a>.</p>
 
 <#include "footer.ftl">
