@@ -6,8 +6,8 @@
     <atom:link href="http://jbake.org/feed.xml" rel="self" type="application/rss+xml" />
     <description>JBake Bootstrap Template</description>
     <language>en-gb</language>
-    <pubDate>Sat, 24 Jan 2015 17:23:35 +0000</pubDate>
-    <lastBuildDate>Sat, 24 Jan 2015 17:23:35 +0000</lastBuildDate>
+    <pubDate>Sat, 24 Jan 2015 17:44:54 +0000</pubDate>
+    <lastBuildDate>Sat, 24 Jan 2015 17:44:54 +0000</lastBuildDate>
 
     <item>
       <title>Hosting Static Sites</title>
@@ -47,6 +47,15 @@
   &lt;li&gt;&lt;a href=&quot;http://www.python.org&quot;&gt;Python&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://continuum.io/downloads&quot;&gt;Anaconda&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+	</description>
+    </item>
+    <item>
+      <title>Dropbox and GDrive</title>
+      <link>http://jbake.org/blog/2013/storage.html</link>
+      <pubDate>Wed, 16 Jan 2013 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">blog/2013/storage.html</guid>
+      	<description>
+	&lt;p&gt;I have been using Google Drive for a while (and I used google docs before drive) and whilst I like it and it has been great, It had two annoyances for me. One being the fact that it doesnt have a good linux app. I use Ubuntu, Mint, Windows and a Mac and not to have full app / drive integration is an annoyance, I tried some hacks from the web to make it work, but none functioned completely for me.&lt;/p&gt;&lt;p&gt;Another annoyance is the fact that google drive behaves differently if your using different browsers having different functionality and features on older or no google browsers e.g. unable to upload a directory, rather you have to upload files individually, maybe they want to force you to use the latest version of their browser.&lt;/p&gt;&lt;p&gt;In Recent weeks I have been using DropBox, and for me it works fine as an app (virtual drive) on all my Platforms. I had looked at it before and i had some issues in linux with it, but the app works now no problem for me. &lt;/p&gt;&lt;p&gt;I am using both Drive and Dropbox (to be sure to be sure) drop box for a code repository, since its easier to flat copy the directory.&lt;/p&gt;
 	</description>
     </item>
 
