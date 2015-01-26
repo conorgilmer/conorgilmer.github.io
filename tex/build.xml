@@ -1,0 +1,31 @@
+<!--  build.xml file  -->
+<!--  Conor Gilmer(cgilmer@tinet.ie)  -->
+<!--  will compile projectname.tex to projectname.pdf -->
+<project name="staticgen" default="all">
+<target name="pdflatex">
+<exec executable="pdflatex">
+<arg value="${ant.project.name}.tex"/>
+</exec>
+</target>
+<!--
+ use your bibtex file name if different from projectname
+-->
+<target name="bibtex">
+<exec executable="bibtex">
+<arg value="${ant.project.name}"/>
+</exec>
+</target>
+<!--
+ launch using a pdf viewer here i use evince, change to kpdf, adobe etc.
+-->
+<!--target name="launch">
+<exec executable="open /Applications/Preview.app">
+<arg value="${ant.project.name}.pdf"/>
+</exec>
+</target-->
+<target name="all">
+<antcall target="pdflatex"/>
+<antcall target="bibtex"/>
+<!--antcall target="launch"/-->
+</target>
+</project>
