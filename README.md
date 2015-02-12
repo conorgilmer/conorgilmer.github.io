@@ -5,6 +5,12 @@ It is a brochure like website, with links and some social media widgets thrown i
 
 To Do
 -----
-Link to some other git hub pages blogs/sites, from here, such as JBake, Pelican, Hyde and Jeykl.
+Link to some other git hub pages blogs/sites, from here, 
+such as 
++ [JBake](http://conorgilmer.github.io/jbake/output/)
++ [Pelican](http://conorgilmer.github.io/pelican2/output/)
++ Nikola
++ Hyde
++ Jeykl.
 
 
