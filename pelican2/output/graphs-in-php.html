@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
         <meta charset="utf-8" />
-        <title>Conors Musings..</title>
+        <title>Graphs in PHP</title>
         <link rel="stylesheet" href="http://conorgilmer.github.io/pelican2/output/theme/css/main.css" />
         <link href="http://conorgilmer.github.io/pelican2/output/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Conors Musings.. Atom Feed" />
 
@@ -35,48 +35,35 @@
                     <li><a href="http://conorgilmer.github.io/pelican2/output/pages/markdown.html">Markdown</a></li>
                     <li><a href="http://conorgilmer.github.io/pelican2/output/pages/software.html">Software</a></li>
                     <li><a href="http://conorgilmer.github.io/pelican2/output/category/radio.html">Radio</a></li>
-                    <li><a href="http://conorgilmer.github.io/pelican2/output/category/tech.html">Tech</a></li>
+                    <li class="active"><a href="http://conorgilmer.github.io/pelican2/output/category/tech.html">Tech</a></li>
                 </ul></nav>
         </header><!-- /#banner -->
 <section id="content" class="body">
-<h1>Archives for Conors Musings..</h1>
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="http://conorgilmer.github.io/pelican2/output/graphs-in-php.html" rel="bookmark"
+           title="Permalink to Graphs in PHP">Graphs in PHP</a></h1>
+    </header>
 
-<dl>
-    <dt>Thu 19 February 2015</dt>
-    <dd><a href="http://conorgilmer.github.io/pelican2/output/eclipse-ide-v-netbeans.html">Eclipse IDE v NetBeans</a></dd>
-    <dt>Sun 01 February 2015</dt>
-    <dd><a href="http://conorgilmer.github.io/pelican2/output/will-html5-kill-off-flash.html">Will HTML5 kill off Flash</a></dd>
-    <dt>Mon 19 January 2015</dt>
-    <dd><a href="http://conorgilmer.github.io/pelican2/output/the-day-rte-would-have-closed-long-wave.html">The day RTE would have closed Long Wave</a></dd>
-    <dt>Fri 16 January 2015</dt>
-    <dd><a href="http://conorgilmer.github.io/pelican2/output/hosting-a-htmlcssjavascript-static-site.html">Hosting a HTML/CSS/JavaScript static site</a></dd>
-    <dt>Fri 09 January 2015</dt>
-    <dd><a href="http://conorgilmer.github.io/pelican2/output/graphs-in-php.html">Graphs in PHP</a></dd>
-    <dt>Fri 09 January 2015</dt>
-    <dd><a href="http://conorgilmer.github.io/pelican2/output/static-website-generators.html">Static website generators</a></dd>
-    <dt>Sat 20 December 2014</dt>
-    <dd><a href="http://conorgilmer.github.io/pelican2/output/long-wave-will-be-kept-on-air-until-2017.html">Long Wave will be kept on-air until 2017</a></dd>
-    <dt>Fri 12 December 2014</dt>
-    <dd><a href="http://conorgilmer.github.io/pelican2/output/using-tex-to-write-documents.html">Using TeX to write documents</a></dd>
-    <dt>Mon 01 December 2014</dt>
-    <dd><a href="http://conorgilmer.github.io/pelican2/output/favourite-language.html">Favourite Language</a></dd>
-    <dt>Mon 01 December 2014</dt>
-    <dd><a href="http://conorgilmer.github.io/pelican2/output/save-rte-long-wave-press-conference-in-ria.html">Save RTE Long Wave Press Conference in RIA</a></dd>
-    <dt>Wed 12 November 2014</dt>
-    <dd><a href="http://conorgilmer.github.io/pelican2/output/adventures-with-docbook.html">Adventures with DocBook</a></dd>
-    <dt>Tue 11 November 2014</dt>
-    <dd><a href="http://conorgilmer.github.io/pelican2/output/adventures-with-tex.html">Adventures with TeX</a></dd>
-    <dt>Wed 15 October 2014</dt>
-    <dd><a href="http://conorgilmer.github.io/pelican2/output/postponement-of-closure-of-long-wave-252.html">Postponement of Closure of Long Wave 252</a></dd>
-    <dt>Tue 30 September 2014</dt>
-    <dd><a href="http://conorgilmer.github.io/pelican2/output/rte-announce-closure-of-long-wave.html">RTE Announce Closure of Long Wave</a></dd>
-    <dt>Tue 09 September 2014</dt>
-    <dd><a href="http://conorgilmer.github.io/pelican2/output/python-anaconda.html">Python - Anaconda</a></dd>
-    <dt>Sun 10 August 2014</dt>
-    <dd><a href="http://conorgilmer.github.io/pelican2/output/wordpress-plugins.html">Wordpress Plugins</a></dd>
-    <dt>Tue 12 September 2006</dt>
-    <dd><a href="http://conorgilmer.github.io/pelican2/output/eclipse-ide.html">Eclipse IDE</a></dd>
-</dl>
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2015-01-09T00:00:00+00:00">
+                Published: Fri 09 January 2015
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="http://conorgilmer.github.io/pelican2/output/author/conor-gilmer.html">Conor Gilmer</a>
+        </address>
+<p>In <a href="http://conorgilmer.github.io/pelican2/output/category/tech.html">Tech</a>. </p>
+
+</footer><!-- /.post-info -->      <h2>Drawing graphs using php</h2>
+<p>I have used perl(cgi), java and python to generate graphs, I have used awk to generate data for graphs, while they have their merits particulalry python, the requirement to use a framework to have it online has meant in the past for some simple stats I have used php. Also there is some excellent javascript and online facilities to generate graphs and of course offline using gnuplot, openoffice and excel but i like dynamically generating them using php.
+I was using a unlicenced free to use and modify phpMyGraph very happily for some work stats and some personal projects. I like although it some issues i have had with it are the absence of a pie chart, and also returning the png image has often been problematic for inserting in pdfs(maybe i keep doing it wrong), but for easy of use and producing quality graphs i do like it.
+Recently I used a GPL graph drawing libary Libchart, it has some basic charts such as Line, Bar and Pie, and i found it excellent for the small job i had to do.</p>
+    </div><!-- /.entry-content -->
+
+  </article>
 </section>
         <section id="extras" class="body">
                 <div class="social">
