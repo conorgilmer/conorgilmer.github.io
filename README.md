@@ -3,6 +3,16 @@ Github pages repository
 This is a basic enough HTML5/CSS3 Template based  personal webesite hosted on GitHub Pages.
 It is a brochure like website, with links and some social media widgets thrown in.
 
+Pages
+----
++ About Me
++ Education
++ My Hobbies
++ Tech Stuff
++ Links
++ Social Media
++ Contacts
+
 To Do
 -----
 Link to some other git hub pages blogs/sites, from here, 
